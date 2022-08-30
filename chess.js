@@ -10,16 +10,15 @@ for(i=0; i<8; i++){
             if(j%2==0){
                 DIV.insertAdjacentHTML("beforeend",blackSquare);
             }
-            if(j%2==1)
-            {
+            else{
                 DIV.insertAdjacentHTML("beforeend",whiteSquare);
             }
         }
-        if(i%2==1){
+        else{
             if(j%2==0){
                 DIV.insertAdjacentHTML("beforeend",whiteSquare);
             }
-            if(j%2==1){
+            else{
                 DIV.insertAdjacentHTML("beforeend",blackSquare);
             }
         }
